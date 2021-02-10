@@ -1,0 +1,12 @@
+#mainWrapper{
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+    background-color: darkseagreen;
+}
+
+#form_group{
+    height: 50px;
+    background-color: firebrick;
+
+}

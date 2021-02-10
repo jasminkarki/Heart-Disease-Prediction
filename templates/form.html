@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <title>Patient Detail Form</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form name="details" action="" method="POST">
+            <table width="800" border="1" cellspacing="2" cellpadding="2">
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" name="full_name" maxlength="40"></td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td><input type="number" name="age" min="5" max="100"></td>
+                </tr>
+                <tr>
+                    <td>Sex</td>
+                    <td>
+                        <input type="radio" id="male" name="sex" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="sex" value="female">
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Chest Pain</td>
+                    <td>
+                        <input type="radio" id="cp_ty" name="cp" value="typical">
+                        <label for="cp_ty">Typical Angina</label>
+                        <input type="radio" id="cp_aty" name="cp" value="atypical">
+                        <label for="cp_aty">Atypical Angina</label>
+                        <input type="radio" id="cp_non" name="cp" value="nonanginal">
+                        <label for="cp_non">Non-anginal</label>
+                        <input type="radio" id="cp_asy" name="cp" value="asymptomatic">
+                        <label for="cp_asy">Asymptomatic</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Resting BP</td>
+                    <td><input type="number" name="rest_bp" min="60" max="220"></td>
+                </tr>
+                <tr>
+                    <td>Cholesterol</td>
+                    <td><input type="number" name="chol"></td>
+                </tr>
+                <tr>
+                    <td>Fast Blood Sugar</td>
+                    <td>
+                        <input type="radio" id="fast_bs_yes" name="fast_bs" value="fast_yes">
+                        <label for="fast_bs_yes">Yes</label>
+                        <input type="radio" id="fast_bs_no" name="fast_bs" value="fast_no">
+                        <label for="fast_bs_no">No</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Rest ECG</td>
+                    <td>
+                        <input type="radio" id="ecg_normal" name="ecg" value="normal">
+                        <label for="ecg_normal">Normal</label>
+                        <input type="radio" id="ecg_abnormal" name="ecg" value="abnormal">
+                        <label for="ecg_abnormal">Abnormal</label>
+                        <input type="radio" id="ecg_ventricular" name="ecg" value="ventricular">
+                        <label for="ecg_ventricular">Ventricular Hypertrophy</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Max Heart Rate</td>
+                    <td><input type="number" name="heart_rate"></td>
+                </tr>
+                <tr>
+                    <td>Exercise Induced Angina</td>
+                    <td>
+                        <input type="radio" id="ex_y" name="exe" value="exe_yes">
+                        <label for="ex_yes">Male</label>
+                        <input type="radio" id="ex_n" name="exe" value="exe_no">
+                        <label for="ex_no">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Old Peak</td>
+                    <td><input type="number" name="old_peak"></td>
+                </tr>
+                <tr>
+                    <td>Slope</td>
+                    <td>
+                        <input type="radio" id="slope_u" name="slope" value="slope_up">
+                        <label for="slope_u">Upsloping</label>
+                        <input type="radio" id="slope_f" name="slope" value="slope_flat">
+                        <label for="slope_f">Flat</label>
+                        <input type="radio" id="slope_d" name="slope" value="slope_down">
+                        <label for="slope_d">Downsampling</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Blood Vessel</td>
+                    <td><input type="number" name="no_of_blood_vessel"></td>
+                </tr>
+                <tr>
+                    <td>Thalessemia</td>
+                    <td>
+                        <input type="radio" id="thal_n" name="thal" value="thal_normal">
+                        <label for="thal_n">Normal</label>
+                        <input type="radio" id="thal_f" name="thal" value="thal_flat">
+                        <label for="thal_f">Fixed Defect</label>
+                        <input type="radio" id="thal_r" name="thal" value="thal_reversable">
+                        <label for="thal_r">Reversable Defect</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td> Predict</td>
+                    <td><input type="submit" name="submit" value="submit"></td>
+                </tr>
+
+            </table>
+        </form>
+    </body>
+</html>

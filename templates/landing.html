@@ -1,0 +1,218 @@
+<form class="form-horizontal">
+  <fieldset>
+  
+  <!-- Form Name -->
+  <legend>Heart Disease Data</legend>
+  
+  <!-- Text input-->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="age">Age </label>  
+    <div class="col-md-4">
+    <input id="age" name="age" type="text" placeholder="Your age" class="form-control input-md" required="">
+    <span class="help-block">Range [5-90]</span>  
+    </div>
+  </div>
+  
+  <!-- Multiple Radios (inline) -->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="sex">Sex</label>
+    <div class="col-md-4"> 
+      <label class="radio-inline" for="sex-0">
+        <input type="radio" name="sex" id="sex-0" value="0" checked="checked">
+        Female
+      </label> 
+      <label class="radio-inline" for="sex-1">
+        <input type="radio" name="sex" id="sex-1" value="1">
+        Male
+      </label>
+    </div>
+  </div>
+  
+  <!-- Multiple Radios -->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="cp">Chest Pain</label>
+    <div class="col-md-4">
+    <div class="radio">
+      <label for="cp-0">
+        <input type="radio" name="cp" id="cp-0" value="1" checked="checked">
+        Typical angina
+      </label>
+    </div>
+    <div class="radio">
+      <label for="cp-1">
+        <input type="radio" name="cp" id="cp-1" value="2">
+        Atypical angina
+      </label>
+    </div>
+    <div class="radio">
+      <label for="cp-2">
+        <input type="radio" name="cp" id="cp-2" value="3">
+        Non-anginal pain
+      </label>
+    </div>
+    <div class="radio">
+      <label for="cp-3">
+        <input type="radio" name="cp" id="cp-3" value="4">
+        Asymptomatic
+      </label>
+    </div>
+    </div>
+  </div>
+  
+  <!-- Text input-->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="resting_bp">Resting BP</label>  
+    <div class="col-md-4">
+    <input id="resting_bp" name="resting_bp" type="text" placeholder="Blood pressure (in mm/Hg)" class="form-control input-md" required="">
+    <span class="help-block">Range[60-220]</span>  
+    </div>
+  </div>
+  
+  <!-- Text input-->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="chol">Cholesterol</label>  
+    <div class="col-md-4">
+    <input id="chol" name="chol" type="text" placeholder="Your cholesterol value" class="form-control input-md" required="">
+      
+    </div>
+  </div>
+  
+  <!-- Multiple Radios -->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="fast_blood_sugar">Fast Blood Sugar  (&gt; 120 mg/dl) </label>
+    <div class="col-md-4">
+    <div class="radio">
+      <label for="fast_blood_sugar-0">
+        <input type="radio" name="fast_blood_sugar" id="fast_blood_sugar-0" value="0" checked="checked">
+        No
+      </label>
+    </div>
+    <div class="radio">
+      <label for="fast_blood_sugar-1">
+        <input type="radio" name="fast_blood_sugar" id="fast_blood_sugar-1" value="1">
+        Yes
+      </label>
+    </div>
+    </div>
+  </div>
+  
+  <!-- Multiple Radios -->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="rest_ecg">Rest ECG</label>
+    <div class="col-md-4">
+    <div class="radio">
+      <label for="rest_ecg-0">
+        <input type="radio" name="rest_ecg" id="rest_ecg-0" value="0" checked="checked">
+        Normal
+      </label>
+    </div>
+    <div class="radio">
+      <label for="rest_ecg-1">
+        <input type="radio" name="rest_ecg" id="rest_ecg-1" value="1">
+        Abnormal
+      </label>
+    </div>
+    <div class="radio">
+      <label for="rest_ecg-2">
+        <input type="radio" name="rest_ecg" id="rest_ecg-2" value="2">
+        Ventricular Hypertrophy
+      </label>
+    </div>
+    </div>
+  </div>
+  
+  <!-- Text input-->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="max_heart_rate">Max Heart Rate</label>  
+    <div class="col-md-4">
+    <input id="max_heart_rate" name="max_heart_rate" type="text" placeholder="Your heart rate" class="form-control input-md" required="">
+      
+    </div>
+  </div>
+  
+  <!-- Multiple Radios (inline) -->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="exercise_induced_angina">Exercise Induced Angina</label>
+    <div class="col-md-4"> 
+      <label class="radio-inline" for="exercise_induced_angina-0">
+        <input type="radio" name="exercise_induced_angina" id="exercise_induced_angina-0" value="0" checked="checked">
+        No
+      </label> 
+      <label class="radio-inline" for="exercise_induced_angina-1">
+        <input type="radio" name="exercise_induced_angina" id="exercise_induced_angina-1" value="1">
+        Yes
+      </label>
+    </div>
+  </div>
+  
+  <!-- Text input-->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="old_peak">Old Peak</label>  
+    <div class="col-md-4">
+    <input id="old_peak" name="old_peak" type="text" placeholder="Old Peak value" class="form-control input-md" required="">
+    <span class="help-block">Range [0.0 to above]</span>  
+    </div>
+  </div>
+  
+  <!-- Multiple Radios -->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="slope">Slope </label>
+    <div class="col-md-4">
+    <div class="radio">
+      <label for="slope-0">
+        <input type="radio" name="slope" id="slope-0" value="1" checked="checked">
+        Upsloping
+      </label>
+    </div>
+    <div class="radio">
+      <label for="slope-1">
+        <input type="radio" name="slope" id="slope-1" value="2">
+        Flat
+      </label>
+    </div>
+    <div class="radio">
+      <label for="slope-2">
+        <input type="radio" name="slope" id="slope-2" value="3">
+        Downsampling
+      </label>
+    </div>
+    </div>
+  </div>
+  
+  <!-- Text input-->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="no_of_blood_vessels">Blood Vessel Disease</label>  
+    <div class="col-md-4">
+    <input id="no_of_blood_vessels" name="no_of_blood_vessels" type="text" placeholder="" class="form-control input-md" required="">
+    <span class="help-block">n blood vessels disease</span>  
+    </div>
+  </div>
+  
+  <!-- Multiple Radios -->
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="thal">thalassemia</label>
+    <div class="col-md-4">
+    <div class="radio">
+      <label for="thal-0">
+        <input type="radio" name="thal" id="thal-0" value="1" checked="checked">
+        Normal
+      </label>
+    </div>
+    <div class="radio">
+      <label for="thal-1">
+        <input type="radio" name="thal" id="thal-1" value="2">
+        Fixed defect
+      </label>
+    </div>
+    <div class="radio">
+      <label for="thal-2">
+        <input type="radio" name="thal" id="thal-2" value="3">
+        Reversable defect
+      </label>
+    </div>
+    </div>
+  </div>
+  
+  </fieldset>
+  </form>
+  
